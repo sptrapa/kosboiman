@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+}
+header {
+    background: linear-gradient(90deg, #00c6ff, #0072ff); /* Gradasi modern cerah */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+nav {
+    margin-top: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2); /* Transparan untuk efek modern */
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+nav a:hover {
+    background: rgba(255, 255, 255, 0.4);
+    color: #00c6ff;
+}
+.container {
+    width: 80%;
+    margin: 100px auto 0; /* Margin top untuk memberi ruang pada header tetap */
+    overflow: hidden;
+}
+.section {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section h2 {
+    margin-top: 0;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.gallery-item {
+    flex: 1;
+    min-width: 200px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
