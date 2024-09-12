@@ -40,6 +40,9 @@ nav a:hover {
     margin: 100px auto 0; /* Margin top untuk memberi ruang pada header tetap */
     overflow: hidden;
 }
+.container p {
+    font-size: 20px;
+}
 .section {
     background: #fff;
     padding: 20px;
@@ -68,12 +71,57 @@ nav a:hover {
     height: auto;
     border-radius: 8px;
 }
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
+form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
     width: 100%;
-}
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #189dda;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #d4dfe2;
+  }
