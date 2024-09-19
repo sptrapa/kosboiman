@@ -125,3 +125,7 @@ form {
   footer a:hover {
     color: #d4dfe2;
   }
+  
+  html {
+    scroll-behavior: smooth;
+}
