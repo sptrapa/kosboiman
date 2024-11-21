@@ -14,6 +14,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
+    
 }
 header h1 {
     margin: 0;
@@ -39,7 +40,7 @@ nav a:hover {
     width: 80%;
     margin: 100px auto 10; /* Margin top untuk memberi ruang pada header tetap */
     overflow: hidden;
-    margin-top: 130px;
+    margin-top: 2000px;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -195,6 +196,7 @@ header {
   padding: 20px;
   text-align: center;
   color: #fff;
+  padding-bottom: 20px;
 }
 
 header h1 {
@@ -206,7 +208,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
 }
 
 .form-container {
